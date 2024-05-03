@@ -12,7 +12,15 @@ public class SmallestAndLargestElements {
 		
 		Arrays.sort(arr);
 		
-		System.out.print(arr[0] + arr[arr.length-1]);
+		// normal output
+		System.out.println(arr[0] + " " + arr[arr.length-1]);
+		
+		int result[] = new int[2];
+		result[0] = arr[0];
+		result[1] = arr[arr.length-1];
+		
+		// output in an array
+		System.out.print(Arrays.toString(result));
 
 	}
 
