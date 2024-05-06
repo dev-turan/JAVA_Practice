@@ -24,8 +24,6 @@ public class LastOccurenceOfElement {
 		
 		System.out.print(index);
 		
-		  
-
 	}
 
 }
