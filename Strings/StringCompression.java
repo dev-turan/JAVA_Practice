@@ -19,7 +19,7 @@ public class StringCompression {
 				count = 1;
 			}
 		}
-		
+		  
 		ans.append(str.charAt(str.length()-1));
 		ans.append(count);
 		
